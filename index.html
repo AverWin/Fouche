@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fouche.fr</title>
+<!-- ICONE -->
+    <link rel="icon" href="Image/Dodge.PNG">
+<!-- FONT AWESOME -->
+<script src="https://kit.fontawesome.com/0c87a70838.js"></script>
+<!-- FONT CSS-->
+    <link href="//db.onlinewebfonts.com/c/6aa06a9a432b8417171f60d8351aa310?family=Torus+Notched" rel="stylesheet" type="text/css"/>
+<!-- CUSTOM CSS-->   
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+<!-- ONGLET-SIDE -->
+<div class="onglet-side">
+    <a href="#accueil" class="active"></a>
+    <a href="#biographie"></a>
+    <a href="#musculation"></a>
+    <a href="#contact"></a>
+</div>
+<!-- HEADER / SECTION 1 -->
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="Image/Logo.png" alt="logo" width="50px" height="50px">
+                </div>
+                <div class="onglet">
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#biographie">Biographie</a></li>
+                        <li><a href="#musculation">Musculation</a></li>
+                        <li><a href="#contact">Bonus</a></li>
+                    </ul>
+                </div>
+                    <div class="logo">
+                </div>
+            </div>
+        </header>
+<!-- Vidéo/Texte -->
+    <div class="bloc">
+    <video autoplay="autoplay" muted="" loop="infinite" src="Image/DODGE-SRT.mp4"></video>
+        <section class="sec1" id="accueil">
+            <div class="container">
+                <h1>Killian<br />ㅤFouché</h1>
+                <a href="#musculation">
+                <button>
+                        <span>SUIVANT</span>
+                            <span class="arrow">
+                            <i class="fas fa-angle-right" aria-hidden="true"></i>
+                            <i class="fas fa-angle-right" aria-hidden="true"></i>
+                            </span>
+                </button></a>
+            </div>
+        </section>
+    </div>
+<!-- SECTION 2 -->
+    <div class="transition">
+        <img src="Image\Transition.png">
+    </div>
+        <section class="sec2" id="biographie">
+            <div class="container">
+                <div class="title">
+                    <h1>Biographie</h1></div>
+                <div class="content content-top">
+                    <div class="left">
+                        <div class="titre">
+                            <div class="point"></div>
+                            <h2>Moi</h2>
+                        </div>
+                            <div class="separateur"></div>
+                                <p>Je me nomme Killian Fouché, je suis née le 16 septembre 2004, actuellement j'ai 18ans et je suis en étude supérieur BTS SNIR (Systeme numerique et informatique et réseaux. Je suis passionné d'informatique, de foot, de musculation, de voiture, de musique, de jeux vidéo.</p>
+                    </div>
+                        <div class="right">
+                            <img src="Image/Killian.jpg" width="500px" height="500px" >
+                        </div>
+                </div>
+                <div class="content content-bottom">
+                    <div class="left">
+                        <img src="Image/Dodge1.jpg" width="500px" height="575px" >
+                    </div>
+                    <div class="right">
+                        <div class="titre">
+                            <div class="point"></div>
+                            <h2>Voiture de mes rêves</h2>
+                        </div>
+                            <div class="separateur"></div>
+                                <p>Cette voiture est une Dodge Challenger Srt Demon. Elle est équiper d'un moteur longitudinal avant huit cylindres en V suralimenté développant un couple maximum de 972 Nm dès 4500 trs/min et une puissance maximum de 850 ch à 6300 trs/min transmise aux roues arrières de 18 pouces par le biais d'une boite de vitesse automatique à 8 rapport</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- SECTION 3 -->
+        <section class="sec3" id="musculation">
+            <div class="container">
+                <div class="left">
+                    <h1>Musculation</h1>
+                    <div class="separateur"></div>
+                    <p>C'est avant tout une passion qui prend soin de toi mentalement et physiquement.</p>
+                    <a href="https://fr.wikipedia.org/wiki/Musculation"><button>En savoir plus
+                        <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+                    </button></a>
+                </div>
+                <div class="right">
+                    <img src="Image/M.jpg">
+                </div>
+            </div>
+        </section>
+<!-- SECTION 4 -->
+        <section class="sec4" id="contact">
+            <div class="content">
+                <div class="left">
+                    <img src="Image/Destin.jpg" width="400px" height="400px">
+                </div>
+                <div class="mid">
+                    <h1>Musique</h1>
+                    <h2>Ninho</h2>
+                    <p>L'un des meilleurs album de ninho est Destin, d'ailleurs pour moi ninho est le meilleur rappeur français</p>
+                    <a href="https://fr.wikipedia.org/wiki/Destin_(album)"><button>En savoir plus
+                        <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+                    </button></a>
+                </div>
+                <div class="right">
+                    <img src="Image/Hellcat2.png" width="600px" height="400px">
+                </div>
+                <div class="copyright">
+                    <p>© 2023 - Killian Fouché</p>
+                </div>
+            </div>
+        </section>
+<!-- SRIPT JS POUR ONGLET-SIDE -->
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<script type="text/javascript">
+$(document).on("click", ".onglet-side a", function () {
+$(this).addClass("active").siblings().removeClass("active");
+});
+</script>
+    </body>
+</html>
